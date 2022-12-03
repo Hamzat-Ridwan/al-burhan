@@ -1,0 +1,60 @@
+.about{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+.about .content{
+    margin-left: 50px;
+}
+
+.about h3{
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about button{
+    background: #683503;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 25px;
+    color: #fff;
+}
+
+.about .logo-con{
+    /* width: 40vw; */
+}
+      
+.about svg{
+   scale: .9;
+   max-width: 40vw;
+}
+
+@media screen and (max-width: 750px) {
+    .about{
+        flex-direction: column;
+    }
+
+    .about .content{
+        margin-left: 0;
+    }
+
+    .about .logo-con{
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about svg{
+        scale: 1;
+        max-width: none;
+    }
+}

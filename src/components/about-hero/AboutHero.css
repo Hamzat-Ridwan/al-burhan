@@ -1,0 +1,43 @@
+.about-hero{
+    margin: 0;
+}
+
+.about-hero .content{
+    padding: 5%;
+}
+
+.about-hero .title{
+    background: #683503;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    font-weight: 600;
+    font-size: 56px;
+    color: #fff;
+}
+
+.about-hero .content .top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.about-hero .content .top span{
+    margin-top: 5px;
+}
+
+.about-hero h6{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 43px;
+}
+
+.about-hero .content p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 43px;
+    letter-spacing: 0.0015em;
+}
