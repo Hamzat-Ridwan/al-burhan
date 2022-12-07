@@ -12,6 +12,7 @@
     /* grid-gap: 80px; */
     grid-gap: 5rem;
     margin: 0 auto;
+    max-width: 80vw;
 }
 
 .activities h3{
@@ -41,9 +42,23 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        max-width: 90vw;
+        gap: 2rem;
     }
 
     .activities .container .item{
-        width: 150px;
+        width: 100px;
+    }
+
+    .activities .container .item img{
+        width: 100%;
+    }
+
+    .activities .container p{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+    
+        color: #333333;
     }
 }
