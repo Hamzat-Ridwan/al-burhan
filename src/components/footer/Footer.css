@@ -127,6 +127,10 @@ hr{
         font-size: 14px;
     }
 
+    .footer .enter-mail input{
+        font-size: 14px;
+    }
+
     .footer .box p{
         font-size: 13px;
         font-weight: 500;
@@ -172,9 +176,16 @@ hr{
     .footer .enter-mail{
         width: 90%;
         height: 70px;
+        
+    }
+
+    .footer .enter-mail input{
+        font-size: 11px;
+        padding-left: 0px;
     }
 
     .footer .enter-mail button{
         font-size: 11px;
+        width: 30%;
     }
 }
