@@ -6,6 +6,9 @@
 
 hr{
     margin: 20px 0;
+    background-color: #fff;
+    border: none;
+    height: 1px;
 }
 
 .footer h4{
