@@ -39,3 +39,17 @@
     color: #fff;
     margin-top: 15px;
 }
+
+@media screen and (max-width: 650px) {
+    .ask{
+        flex-direction: column;
+    }
+
+    .ask img{
+        width: 100%;
+    }
+    
+    .ask .content{
+        width: 100%;
+    }
+}
