@@ -16,7 +16,7 @@
 
 .about p{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -29,12 +29,13 @@
 }
 
 .about .logo-con{
-    /* width: 40vw; */
+    width: 40vw;
 }
       
-.about svg{
+.about img{
    scale: .9;
-   max-width: 40vw;
+   min-width: 40vw;
+   width: 100%;
 }
 
 @media screen and (max-width: 750px) {
@@ -57,8 +58,9 @@
         font-size: 15px;
     }
 
-    .about svg{
+    .about img{
         scale: 1;
         max-width: none;
+        width: 100%;
     }
 }

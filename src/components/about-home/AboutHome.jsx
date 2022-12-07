@@ -1,14 +1,14 @@
 import React from 'react'
-// import Logo from '../../assets/logo.svg'
-import {ReactComponent as Logo} from '../../assets/about-logo.svg'
+import Logo from '../../assets/logo.svg'
+// import {ReactComponent as Logo} from '../../assets/about-logo.svg'
 import './AboutHome.css'
 
 const AboutHome = () => {
   return (
     <div className='about'>
         <div className='logo-con'>
-            {/* <img src={Logo} alt='logo' /> */}
-            <Logo />
+            <img src={Logo} alt='logo' />
+            {/* <Logo /> */}
         </div>
         <div className='content'>
             <h3>About Al-Burhan Media</h3>
