@@ -1,0 +1,33 @@
+.support{
+    background: url('../../assets/support.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 15% 90px;
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.support h3{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+}
+
+.support p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.support button{
+    background: #683503;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 25px;
+    color: #fff;
+    margin-top: 15px;
+}

@@ -1,0 +1,42 @@
+.umrah{
+    display: flex;
+    padding: 100px 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.umrah img{
+    width: 37vw;
+}
+
+.umrah .content{
+    width: 53%;
+}
+
+.umrah .content h3{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 63px;
+    letter-spacing: 0.0025em;
+    width: 75%;
+    color: #280A00;
+
+}
+
+.umrah .content p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 43px;
+    letter-spacing: 0.0015em;
+
+    color: #333333;
+}
+
+.umrah .content button{
+    background: #683503;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 25px;
+    color: #fff;
+    margin-top: 15px;
+}

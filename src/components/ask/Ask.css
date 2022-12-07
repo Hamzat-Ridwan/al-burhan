@@ -1,0 +1,41 @@
+.ask{
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ask img{
+    width: 37vw;
+}
+
+.ask .content{
+    width: 53%;
+}
+
+.ask .content h3{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 63px;
+    letter-spacing: 0.0025em;
+    color: #280A00;
+
+}
+
+.ask .content p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 43px;
+    letter-spacing: 0.0015em;
+
+    color: #333333;
+}
+
+.ask .content button{
+    background: #683503;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 25px;
+    color: #fff;
+    margin-top: 15px;
+}
