@@ -46,6 +46,10 @@
         gap: 2rem;
     }
 
+    .activities h3{
+        font-size: 33px;
+    }
+
     .activities .container .item{
         width: 100px;
     }
