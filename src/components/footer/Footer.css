@@ -160,6 +160,11 @@ hr{
     }
     .footer .box .links-con{
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: unset;
+        margin: 30px auto 0;
+        row-gap: 20px;
+        column-gap: 50px;
     }
     .footer .enter-mail{
         width: 90%;
