@@ -53,6 +53,10 @@
         align-items: center;
     }
 
+    .about .content p{
+        font-size: 15px;
+    }
+
     .about svg{
         scale: 1;
         max-width: none;
