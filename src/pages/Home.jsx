@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 import AboutHome from '../components/about-home/AboutHome'
 import Activities from '../components/activities/Activities'
 import Ask from '../components/ask/Ask'
@@ -11,7 +12,10 @@ import Umrah from '../components/umrah/Umrah'
 
 const Home = () => {
   return (
-    <div>
+    <motion.div
+    initial={{y: 40, opacity: 0.4}}
+    animate={{ opacity: 1, y:0, transition: {duration: .3}}}
+    >
         <Hero />
         <AboutHome />
         <Stories />
@@ -21,7 +25,7 @@ const Home = () => {
         <Ask />
         <Support />
         <Umrah />
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion, AnimatePresence} from 'framer-motion'
 import { ReactComponent as Multiply } from '../../assets/multiply.svg'
 import { Link } from 'react-router-dom'
 import './Navdown.css'
@@ -6,7 +7,14 @@ import './Navdown.css'
 const Navdown = ({toggle}) => {
 
   return (
-    <div className='navdown'>
+    <AnimatePresence>
+    <motion.div className='navdown'
+        key='ani'
+        initial={{y: '100vh',}}
+        animate={{ y:0, transition: {duration: .4, type: 'spring'}}}
+        // exit={{y: '-100vh', transition: {duration: .4, type: 'spring'}}}
+        exit={{ opacity: 0, transition: {duration: .9}}}
+    >
         <Multiply className='close' onClick={()=> toggle()} />
         <div className='first'>
             <ul>
@@ -39,7 +47,8 @@ const Navdown = ({toggle}) => {
                 <li><Link>Vision</Link></li>
             </ul>
         </div>
-    </div>
+    </motion.div>
+    </AnimatePresence>
   )
 }
 
