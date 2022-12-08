@@ -88,14 +88,14 @@
     }
 
     .navdown .first{
-        min-height: 60vh;
+        min-height: 55vh;
         
     }
 
 
     .navdown .second{
-        height: 40vh;
-        padding-top: 20px;
+        height: 45vh;
+        padding-top: 40px;
     }
 
     .navdown div ul{
