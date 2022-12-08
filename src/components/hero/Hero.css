@@ -19,3 +19,9 @@
     padding: 13px 25px;
     color: #683503;
 }
+
+@media screen and (max-width: 600px) {
+    .hero h3{
+        font-size: 40px;
+    }
+}
