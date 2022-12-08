@@ -1,8 +1,12 @@
 import React from 'react'
+import './Hero.css'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className='hero'>
+      <h3>THE BEST SUPPLICATION ON THE DAY OF ARAFAH</h3>
+      <button>Read more</button>
+    </div>
   )
 }
 

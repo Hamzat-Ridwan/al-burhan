@@ -2,6 +2,7 @@ import React from 'react'
 import AboutHome from '../components/about-home/AboutHome'
 import Activities from '../components/activities/Activities'
 import Ask from '../components/ask/Ask'
+import Hero from '../components/hero/Hero'
 import Programmes from '../components/programmes/Programmes'
 import Stories from '../components/stories/Stories'
 import Support from '../components/support/Support'
@@ -11,6 +12,7 @@ import Umrah from '../components/umrah/Umrah'
 const Home = () => {
   return (
     <div>
+        <Hero />
         <AboutHome />
         <Stories />
         <Activities />
