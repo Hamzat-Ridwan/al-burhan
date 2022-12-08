@@ -1,6 +1,6 @@
 .umrah{
     display: flex;
-    padding: 100px 5%;
+    padding: 65px 5% 95px;
     justify-content: space-between;
     align-items: center;
 }
