@@ -116,6 +116,17 @@ hr{
     line-height: 43px;
 }
 
+.footer .socials{
+    display: flex;
+    gap: 20px;
+    padding: 20px 5%;
+}
+
+.footer .socials svg:hover{
+    scale: 1.1;
+    transition: .5s ease;
+}
+
 @media screen and (max-width: 900px) {
     .footer p{
         font-size: 13px;
@@ -187,5 +198,11 @@ hr{
     .footer .enter-mail button{
         font-size: 11px;
         width: 30%;
+    }
+
+    .footer .socials{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
     }
 }

@@ -1,4 +1,10 @@
 import React from 'react'
+import { ReactComponent as Fb } from '../../assets/Fcbk.svg'
+import { ReactComponent as Twitter } from '../../assets/Twitter.svg'
+import { ReactComponent as Youtube } from '../../assets/Youtube.svg'
+import { ReactComponent as Instagram } from '../../assets/Instagram.svg'
+import { ReactComponent as Linkedin } from '../../assets/Linkedin.svg'
+import { ReactComponent as Telegram } from '../../assets/Telegram.svg'
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/footer-logo.svg'
 import './Footer.css'
@@ -43,6 +49,14 @@ const Footer = () => {
             <Link>Contact Us</Link>
           </div>
         </div>
+      </div>
+      <div className='socials'>
+        <Fb />
+        <Instagram />
+        <Twitter />
+        <Telegram />
+        <Youtube />
+        <Linkedin />
       </div>
       <hr/>
       <p>@Copyright 2022 Al-Burhān Media. All Rights Reserved. Terms of service</p>
