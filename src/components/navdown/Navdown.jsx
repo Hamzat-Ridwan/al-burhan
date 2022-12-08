@@ -3,14 +3,14 @@ import { ReactComponent as Multiply } from '../../assets/multiply.svg'
 import { Link } from 'react-router-dom'
 import './Navdown.css'
 
-const Navdown = ({setNavdown}) => {
+const Navdown = ({toggle}) => {
 
   return (
     <div className='navdown'>
-        <Multiply className='close' onClick={()=> setNavdown()} />
+        <Multiply className='close' onClick={()=> toggle()} />
         <div className='first'>
             <ul>
-                <li><Link>Home</Link></li>
+                <li><Link to='/' onClick={()=> toggle()}>Home</Link></li>
                 <li><Link>Prayer Time</Link></li>
                 <li><Link>Videos</Link></li>
                 <li><Link>Welfare</Link></li>
@@ -18,7 +18,7 @@ const Navdown = ({setNavdown}) => {
                 <li><Link>Contact Us</Link></li>
             </ul>
             <ul>
-                <li><Link>About Us</Link></li>
+                <li><Link to='/about' onClick={()=> setNavdown()}>About Us</Link></li>
                 <li><Link>Gallery</Link></li>
                 <li><Link>Audios</Link></li>
                 <li><Link>Livestream</Link></li>

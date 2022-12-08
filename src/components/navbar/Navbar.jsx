@@ -22,7 +22,7 @@ const Navbar = () => {
         
     </nav>
     {
-      navdown && <Navdown setNavdown={toggle} />
+      navdown && <Navdown toggle={toggle} />
     }
     </>
   )
