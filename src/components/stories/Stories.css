@@ -8,6 +8,7 @@
     font-size: 44px;
     line-height: 66px;
     margin-bottom: 30px;
+    color: #280A00;
 }
 
 .stories .story{
@@ -28,6 +29,10 @@
 @media screen and (max-width: 450px) {
     .stories .item{
         max-width: 90vw;
+    }
+
+    .stories h3{
+        font-size: 40px;
     }
 
     .stories .item img{

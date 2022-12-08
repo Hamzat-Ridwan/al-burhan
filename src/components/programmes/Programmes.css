@@ -75,4 +75,7 @@
     .programmes .item{
         max-width: 90vw;
     }
+    .programmes h3{
+        font-size: 40px;
+    }
 }

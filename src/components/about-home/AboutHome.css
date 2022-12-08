@@ -12,6 +12,7 @@
     font-weight: 600;
     font-size: 42px;
     margin-bottom: 20px;
+    color: #280A00;
 }
 
 .about p{
@@ -41,6 +42,11 @@
 @media screen and (max-width: 750px) {
     .about{
         flex-direction: column;
+    }
+
+    .about h3{
+        color: #280A00;
+        font-size: 40px;
     }
 
     .about .content{
