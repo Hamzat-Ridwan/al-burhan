@@ -27,3 +27,13 @@
     letter-spacing: 0.0015em;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 600px) {
+    .mission h3{
+        font-size: 50px;
+    }
+
+    .mission h4{
+        font-size: 40px;
+    }
+}
