@@ -98,13 +98,13 @@
     }
 
     .hero img{
-        top: 55%;
+        top: 89%;
         /* bottom: -120px; */
     }
-    /* .hero img.prev{
+    .hero img.prev{
         left: 35vw;
     }
     .hero img.next{
         right: 35vw;
-    } */
+    }
 }
