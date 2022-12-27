@@ -36,7 +36,7 @@
 
 .hero img{
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-60%);
     height: 40px; width: 40px;
 }
@@ -84,18 +84,24 @@
     .hero h3{
         font-size: 40px;
     }
+    .hero img{
+        position: absolute;
+        top: 70%;
+        transform: translateY(-60%);
+        height: 40px; width: 40px;
+    }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .hero .container-dots{
-        top: 124%;
+        top: 70%;
     }
 
-    /* .hero img{
-        top: unset;
-        bottom: -120px;
+    .hero img{
+        top: 55%;
+        /* bottom: -120px; */
     }
-    .hero img.prev{
+    /* .hero img.prev{
         left: 35vw;
     }
     .hero img.next{
