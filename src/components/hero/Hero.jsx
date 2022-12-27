@@ -5,7 +5,7 @@ import madinah from '../../assets/madinah.svg'
 import makkah from '../../assets/makkah.svg'
 import haram from '../../assets/haram.svg'
 import './Hero.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const slider = [
   {url: madinah},
@@ -37,6 +37,13 @@ const Hero = () => {
     const moveDot = index => {
       setSlideIndex(index)
     }
+
+    useEffect(()=>{
+      const interval = setInterval(()=>{
+        nextSlide()
+      }, 3000)
+      return ()=> clearInterval(interval)
+    })
 
   return (
     <div className='hero'>
