@@ -32,13 +32,17 @@ const Hero = () => {
         else if (slideIndex === 1){
             setSlideIndex(slider.length)
         }
-        console.log(slideIndex)
     }
+
+    const moveDot = index => {
+      setSlideIndex(index)
+    }
+
   return (
     <div className='hero'>
       {slider.map((item, index)=> {
         return(
-          <div className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
+          <div className={slideIndex === index + 1 ? "slide active-anim" : "slide"} key={index}
             style={{background: `linear-gradient(0deg, rgba(51, 51, 51, 0.6), rgba(51, 51, 51, 0.6)), url(${item.url})`}}
           >
             <h3>THE BEST SUPPLICATION ON THE DAY OF ARAFAH</h3>
@@ -51,6 +55,14 @@ const Hero = () => {
       </div>
       
       <img src={next} className='next' onClick={nextSlide} alt='arrow'/>
+      <div className="container-dots">
+                {Array.from({length: 3}).map((item, index) => (
+                    <div key={index}
+                    onClick={() => moveDot(index + 1)}
+                    className={slideIndex === index + 1 ? "dot active" : "dot"}
+                    ></div>
+                ))}
+      </div>
     </div>
   )
 }
