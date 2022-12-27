@@ -36,7 +36,7 @@
 
 .hero img{
     position: absolute;
-    top: 75%;
+    top: 50%;
     transform: translateY(-60%);
     height: 40px; width: 40px;
 }
